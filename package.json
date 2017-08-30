@@ -1,0 +1,28 @@
+{
+  "name": "3ds-theme-parser",
+  "version": "1.0.0",
+  "description": "A parser for the 3DS body_LZ.bin format.",
+  "main": "parseTheme.js",
+  "scripts": {
+    "build-docs": "jsdoc2md --template README.template.md index.js docs.js > README.md"
+  },
+  "keywords": [
+    "3DS",
+    "body_LZ.bin",
+    "body_LZ"
+  ],
+  "author": "DanTheMan827",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "jimp": "^0.2.28",
+    "lz11": "^1.0.2",
+    "tiled-image-tools": "^1.1.1",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "^3.0.0"
+  },
+  "bin": {
+    "3ds-theme-parser": "cli.js"
+  }
+}
