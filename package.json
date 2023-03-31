@@ -4,7 +4,12 @@
   "description": "A parser for the 3DS body_LZ.bin format.",
   "main": "parseTheme.js",
   "scripts": {
-    "build-docs": "jsdoc2md --template README.template.md index.js docs.js > README.md"
+    "build-docs": "jsdoc2md --template README.template.md index.js docs.js > README.md",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanTheMan827/node-3ds-theme-parser.git"
   },
   "keywords": [
     "3DS",
@@ -13,6 +18,10 @@
   ],
   "author": "DanTheMan827",
   "license": "AGPL-3.0",
+  "bugs": {
+  "url": "https://github.com/DanTheMan827/node-3ds-theme-parser/issues"
+  },
+  "homepage": "https://github.com/DanTheMan827/node-3ds-theme-parser#readme",
   "dependencies": {
     "jimp": "^0.2.28",
     "lz11": "^1.0.2",
