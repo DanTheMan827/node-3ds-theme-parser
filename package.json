@@ -1,6 +1,6 @@
 {
   "name": "3ds-theme-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A parser for the 3DS body_LZ.bin format.",
   "main": "parseTheme.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "author": "DanTheMan827",
   "license": "AGPL-3.0",
   "bugs": {
-  "url": "https://github.com/DanTheMan827/node-3ds-theme-parser/issues"
+    "url": "https://github.com/DanTheMan827/node-3ds-theme-parser/issues"
   },
   "homepage": "https://github.com/DanTheMan827/node-3ds-theme-parser#readme",
   "dependencies": {
